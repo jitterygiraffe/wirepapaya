@@ -1,28 +1,37 @@
 .section-one {
-    background-color: #36454f;
+    /* background-color: #36454f; */
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 150px;
+    padding-left: 200px;
     padding-top: 150px;
     row-gap: 10px;
+    position: absolute;
+    top: 600px;
     
 }
 
 .title-one {
-    color: #ffffff;
+    color: #36454f;
     font-size: 20px;
     text-transform: uppercase;
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
   
 }
 
 .par-one {
+    /* color: #e2695f; */
     color: #fff;
     justify-content: center;
     font-size: 100px;
     margin-top: 0px;
     width: 800px;
+    text-shadow: #fff;
     
     
 }
@@ -47,4 +56,9 @@ button {
 .section-four {
     background-color: #fff;
     height: 800px;
+}
+
+.img-one {
+    width: 100vw;
+    height: auto;
 }
