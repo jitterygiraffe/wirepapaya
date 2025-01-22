@@ -31,7 +31,6 @@
     font-size: 100px;
     margin-top: 0px;
     width: 800px;
-    text-shadow: #fff;
     
     
 }
@@ -39,8 +38,12 @@
 button {
     width: 150px;
     padding: 10px;
+    border-radius: 5px;
     /* margin-top: 100px;
     margin-bottom: 100px; */
+    font-size: 16px;
+    background-color: #36454f;
+    color: #fff;
 }
 
 .section-two {
@@ -107,4 +110,13 @@ button {
     height: 600px;
     width: auto;
     padding-left: 200px;
+}
+
+.wire-binding {
+    z-index: 200;
+    position: absolute;
+    top: 1760px;
+    height: auto;
+    width: 550px;
+    padding-left: 100px;
 }
