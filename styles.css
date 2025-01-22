@@ -100,3 +100,11 @@ button {
     width: 500px;
     font-size: 20px;
 }
+
+.prod-img {
+    position: absolute;
+    top: 2150px;
+    height: 600px;
+    width: auto;
+    padding-left: 200px;
+}
