@@ -45,10 +45,10 @@ button {
 
 .section-two {
     background-color: #fff;
-    height: 800px;
+    height: 500px;
     /* color: #36454f; */
     color: #365563;
-    width: 800px;
+    width: 650px;
     padding-left: 200px;
     display: flex;
     flex-direction: column;
