@@ -46,6 +46,13 @@ button {
 .section-two {
     background-color: #fff;
     height: 800px;
+    /* color: #36454f; */
+    color: #365563;
+    width: 800px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section-three {
@@ -61,4 +68,12 @@ button {
 .img-one {
     width: 100vw;
     height: auto;
+}
+
+.abt-title {
+    font-size: 40px;
+}
+
+.abt-txt {
+    font-size: 20px;
 }
