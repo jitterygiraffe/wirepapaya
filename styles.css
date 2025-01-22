@@ -60,7 +60,7 @@ button {
 
 .section-three {
     background-color: #36454f;
-    height: 800px;
+    height: 1800px;
     color: #fff;
     padding-left: 550px;
     display: flex;
@@ -130,10 +130,29 @@ button {
 .prod-catalog {
     width: 500px;
     height: auto;
-    position: absolute;
-    top: 2300px;
+    
 }
 
 .prod1 {
     margin-left: 150px;
+    position: absolute;
+    top: 2300px;
+}
+
+.prod2 {
+    margin-left: 800px;
+    position: absolute;
+    top: 2300px;
+}
+
+.prod3 {
+    margin-left: 150px;
+    position: absolute;
+    top: 2800px;
+}
+
+.prod4 {
+    margin-left: 800px;
+    position: absolute;
+    top: 2800px;
 }
