@@ -49,7 +49,7 @@ button {
 
 .section-two {
     background-color: #fff;
-    height: 600px;
+    height: 500px;
     /* color: #36454f; */
     color: #365563;
     width: 500px;
@@ -59,13 +59,24 @@ button {
     justify-content: center;
 }
 
-.section-three {
+.divn {
     background-color: #36454f;
-    height: 3200px;
+    height: 2000px;
+    width: 100vw;
+    position: absolute;
+    top: 1900px;
+    z-index: -200;
+}
+
+.section-three {
+   
     color: #fff;
-    /* padding-left: 550px; */
-    /* display: flex;
-    flex-direction: column; */
+    position: relative;
+    margin-top: 250px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     
     /* justify-content: center; */
 }
@@ -100,8 +111,9 @@ button {
     font-size: 40px;
     color: #fff;
     position: relative;
-    top: 100px;
+    top: 180px;
     margin-left: 500px;
+    z-index: 200;
 }
 
 .prod-txt {
@@ -130,16 +142,20 @@ button {
 
 
 .prod-catalog {
-    width: 500px;
+    width: 400px;
     height: auto;
+    row-gap: 200px;
     
 }
 
+/* 
 .prod-imgs {
+  
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
-}
+/* }  */
+
 
 /* .prod1 {
     margin-left: 100px;
