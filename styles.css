@@ -5,8 +5,8 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 200px;
-    padding-top: 150px;
-    row-gap: 10px;
+    padding-top: 100px;
+    
     position: absolute;
     top: 600px;
     
@@ -32,7 +32,6 @@
     margin-top: 0px;
     width: 800px;
     
-    
 }
 
 button {
@@ -44,6 +43,8 @@ button {
     font-size: 16px;
     background-color: #36454f;
     color: #fff;
+    position: absolute;
+    top: 580px;
 }
 
 .section-two {
@@ -60,7 +61,7 @@ button {
 
 .section-three {
     background-color: #36454f;
-    height: 1800px;
+    height: 3200px;
     color: #fff;
     padding-left: 550px;
     display: flex;
@@ -89,7 +90,7 @@ button {
 
 .section-two-img {
     position: absolute;
-    top: 1500px;
+    top: 1350px;
     height: auto;
     width: 600px;
     margin-left: 500px;
@@ -134,37 +135,73 @@ button {
 }
 
 .prod1 {
-    margin-left: 150px;
+    margin-left: 100px;
     position: absolute;
     top: 2300px;
 }
 
 .prod2 {
-    margin-left: 800px;
+    margin-left: 700px;
     position: absolute;
     top: 2300px;
 }
 
 .prod3 {
-    margin-left: 150px;
+    margin-left: 100px;
     position: absolute;
-    top: 2800px;
+    top: 2900px;
 }
 
 .prod4 {
-    margin-left: 800px;
+    margin-left: 700px;
     position: absolute;
-    top: 2800px;
+    top: 2900px;
 }
 
 .prod5 {
-    margin-left: 150px;
+    margin-left: 100px;
     position: absolute;
-    top: 3200px;
+    top: 3300px;
 }
 
 .prod6 {
-    margin-left: 800px;
+    margin-left: 700px;
     position: absolute;
-    top: 2800px;
+    top: 3300px;
+}
+
+.prod7 {
+    margin-left: 100px;
+    position: absolute;
+    top: 3800px;
+}
+
+.prod8 {
+    margin-left: 700px;
+    position: absolute;
+    top: 3800px;
+}
+
+.prod9 {
+    margin-left: 100px;
+    position: absolute;
+    top: 4200px;
+}
+
+.prod10 {
+    margin-left: 700px;
+    position: absolute;
+    top: 4200px;
+}
+
+.prod11 {
+    margin-left: 100px;
+    position: absolute;
+    top: 4600px;
+}
+
+.prod12 {
+    margin-left: 700px;
+    position: absolute;
+    top: 4600px;
 }
