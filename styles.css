@@ -63,9 +63,9 @@ button {
     background-color: #36454f;
     height: 3200px;
     color: #fff;
-    padding-left: 550px;
-    display: flex;
-    flex-direction: column;
+    /* padding-left: 550px; */
+    /* display: flex;
+    flex-direction: column; */
     
     /* justify-content: center; */
 }
@@ -101,6 +101,7 @@ button {
     color: #fff;
     position: relative;
     top: 100px;
+    margin-left: 500px;
 }
 
 .prod-txt {
@@ -110,13 +111,13 @@ button {
     top: 200px;
 }
 
-.prod-img {
+/* .prod-img {
     position: absolute;
     top: 2150px;
     height: 600px;
     width: auto;
     padding-left: 200px;
-}
+} */
 
 .wire-binding {
     z-index: 200;
@@ -134,7 +135,13 @@ button {
     
 }
 
-.prod1 {
+.prod-imgs {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+/* .prod1 {
     margin-left: 100px;
     position: absolute;
     top: 2300px;
@@ -204,4 +211,4 @@ button {
     margin-left: 700px;
     position: absolute;
     top: 4600px;
-}
+} */
